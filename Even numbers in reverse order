@@ -1,0 +1,20 @@
+import java.util.*;
+class Evenodd
+{
+public static void main(String args[])
+{
+int n,m;
+System.out.println("Enter two numbers to print even numbers in reverse order");
+Scanner sc = new Scanner( System.in);
+m=sc.nextInt();
+n=sc.nextInt();
+while(m>=n)
+{
+	if((m&1)==0)
+	{
+		System.out.println(m);
+	}
+	m--;
+}
+}
+}
